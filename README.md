@@ -31,9 +31,13 @@ git checkout yourbranchname
 ```
 git push --all origin
 ```
+
 5. Push specific branch
 
 ```
 git push -u origin main
+git push -u origin branchname
+git push -u origin othername
+
 ```
 
