@@ -26,4 +26,9 @@ git checkout main
 git checkout yourbranchname
 ```
 
+4. Push all branches to remote
+
+```
+git push --all origin
+```
 
