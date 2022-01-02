@@ -6,11 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/app.css">
     <title>DMS Templates | Moovie</title>
-
 </head>
 <body>
-    <div class="flex w-screen h-screen justify-center items-center bg-gray-200">
-        <h1 class="font-semibold text-stone-800 text-6xl ">Hello</h1>
-    </div>
+<header class="z-20 fixed h-20 bg-stone-100 w-screen m-auto shadow-lg">
+    <h1 class="hidden">Website Name</h1>
+    <nav class="relative flex p-6 justify-evenly">
+        <ul class="invisible sm:visible w-56 flex justify-evenly">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Pricing</a></li>
+        </ul>
+    <div class="w-48 flex justify-center items-center"><a href="/"><img class="h-10 px-8" src="assets/logo.svg" alt="Logo"></a></div>
+        <ul class="invisible sm:visible w-56 flex justify-evenly">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="flex w-screen h-screen m-auto justify-center items-center">
+    <h2 class="text-6xl">Hello</h2>
+</main>
+<main class="bg-gray-900 flex w-screen h-screen m-auto justify-center items-center">
+    <h2 class="text-6xl text-white">Contact</h2>
+</main>
 </body>
 </html>
